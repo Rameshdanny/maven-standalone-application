@@ -6,10 +6,7 @@
 	<artifactId>maven-stanalone-application</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<configuration>
-            <source>1.8</source>
-            <target>1.8</target>
-        </configuration>
+	
 
 	<name>maven-stanalone-application</name>
 	<url>http://mithuntechnologies.com</url>
@@ -64,7 +61,9 @@
 	      <artifactId>maven-jar-plugin</artifactId>
 	      <version>3.1.0</version>
 	      <configuration>
-	        <archive>
+            <source>1.8</source>
+            <target>1.8</target>
+       	        <archive>
 	          <manifest>
 	            <addClasspath>true</addClasspath>
 	            <classpathPrefix>lib/</classpathPrefix>
